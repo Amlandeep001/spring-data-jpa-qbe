@@ -1,4 +1,4 @@
-package com.example.qbe.employee.contoller;
+package com.example.qbe.employee.controller;
 
 import java.util.List;
 
