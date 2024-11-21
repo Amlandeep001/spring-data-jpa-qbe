@@ -19,7 +19,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 
-import com.example.qbe.employee.Employee;
 import com.example.qbe.employee.repository.EmployeeRepository;
 import com.example.qbe.employee.service.EmployeeService;
 
