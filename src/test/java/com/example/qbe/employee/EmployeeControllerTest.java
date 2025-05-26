@@ -37,7 +37,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Testcontainers
 class EmployeeControllerTest
 {
-
 	@Container
 	@ServiceConnection
 	static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>(DockerImageName.parse("postgres:16-alpine"));

@@ -26,7 +26,6 @@ import com.example.qbe.employee.repository.EmployeeRepository;
 @Testcontainers
 class EmployeeRepositoryTest
 {
-
 	@Container
 	@ServiceConnection
 	static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>(DockerImageName.parse("postgres:16-alpine"));
